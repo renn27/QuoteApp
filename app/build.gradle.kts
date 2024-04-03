@@ -43,14 +43,14 @@ android {
             buildConfigField(
                 type = "String",
                 name = "BASE_URL",
-                value = "\"https://animechan.xyz/api\""
+                value = "\"https://animechan.xyz/api/\""
             )
         }
         create("integration") {
             buildConfigField(
                 type = "String",
                 name = "BASE_URL",
-                value = "\"https://animechan.xyz/api\""
+                value = "\"https://animechan.xyz/api/\""
             )
         }
     }

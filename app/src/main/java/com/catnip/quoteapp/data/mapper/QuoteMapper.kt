@@ -18,3 +18,4 @@ fun QuoteResponse.toQuote() = Quote(
 fun Collection<QuoteResponse>.toQuotes() = this.map {
     it.toQuote()
 }
+
